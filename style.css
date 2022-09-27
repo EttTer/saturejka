@@ -3,9 +3,20 @@
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
+  color: olivedrab;
+  text-align: center;
 }
 
 h1,
 h2 {
   font-family: 'Playfair Display', serif;
+  color: orangered;
+  font-size: 45px;
+  text-align: center;
+}
+
+@media screen {max-width: 900px;
+    .gallery {grid-template-columns: 1fr;
+}
+    
 }
